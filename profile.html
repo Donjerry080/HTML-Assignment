@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile Page</title>
+    <style>
+        .link-div{
+            margin-top: 15px;
+            display: block;
+
+        }
+        .contact-div{
+            display: inline-block;
+            color: saddlebrown;
+
+        }
+        label{
+            display: block;
+            text-align: left;
+            color: saddlebrown;
+        }
+        button{
+            margin-top: 15px;
+            cursor: pointer;
+            background: blue;
+            color: white;
+            padding: 8px;
+            border: none;
+            border-radius: 15px;
+        }
+        .f-div{
+            margin-top: 5px;
+            margin-bottom: 5px;
+            padding: 7px;
+            border-radius: 10px;
+            border-color: blueviolet;
+            box-shadow: 10px;
+            margin: 5px;
+            border-style: dotted;
+            
+        }
+        .o-div{
+            margin-top: 5px;
+            margin-bottom: 5px;
+            padding: 7px;
+            border-radius: 10px;
+            border-color: blueviolet;
+            margin: 5px;
+            border-style: dotted;
+        }
+        .r-div{
+            margin-top: 5px;
+            margin-bottom: 5px;
+            padding: 20px;
+            border-radius: 15px;
+            border-color: blueviolet;
+            margin: 5px;
+            border-style: dotted;
+        }
+        button:hover{
+            background-color: crimson;
+        }
+        thead{
+            background-color: mediumaquamarine;
+        }
+        tbody{
+            background-color: mediumspringgreen;
+        }
+        tfoot{
+            background-color: mediumaquamarine;
+        }
+        body{
+            background-color: azure;
+        }
+        .first-link{
+            background-color: bisque;
+            text-decoration: solid;
+            margin-bottom: 5px;
+        }
+        .second-link{
+            background-color: bisque;
+            text-decoration: solid;
+        }
+        .third-link{
+            background-color: bisque;
+            text-decoration: solid;
+        }
+        h1{
+            color: darkblue;
+        }
+        h3{
+            color: darkblue;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>AYOMIDE BAMIDELE</h1>
+    <div>
+   
+        <P style="background-color: gold; color: black; display: inline-block;">My full name is Bamidele Ayomide Jerry, male, 25yo, and I started taking this frontend course 4-5 weeks ago.</P>
+    
+    </div>
+    <img src="/images/2024_02_18_11_56_IMG_1830.JPG" alt="Personal profile picture" height="200px" width="150px">
+
+    <div class="link-div">
+    <div>
+        <a class="first-link" href="http://www.facebook.com" target="_blank">Click here to go to Facebook page</a>
+    </div>
+    <div>
+        <a class="second-link" href="about.html">Click here to go to the next page</a>
+    </div>
+    <div>
+        <a class="third-link" href="#abt">Click here to go to About Me section</a>
+    </div>
+
+    </div>
+        <h4>Ignore</h4>
+        <P>Ignore</P>
+        <h4>Ignore</h4>
+        <P>Ignore</P>
+        <h4>Ignore</h4>
+        <P>Ignore</P>
+        <h4>Ignore</h4>
+        <P>Ignore</P>
+        <h4>Ignore</h4>
+        <P>Ignore</P>
+
+    <h3 id="abt">ABOUT ME</h3>
+    <p>This section conatins more details about my humble self...some of my hobbies are:</p>
+    <ul>
+        <li>Singing</li>
+        <li>Swimming</li>
+        <li>Reading</li>
+        <li>Investing.</li>
+    </ul>
+
+    <h3>CONTACT FORM</h3>
+    <form>
+     <div class="contact-div">
+        <label for="Name">Name:</label>
+        <input class="f-div" type="text" placeholder="Enter your name"> 
+     </div>
+     <div>
+        <label for="email">Email:</label>
+        <input class="o-div" type="text" placeholder="Enter your email">
+     </div>
+     <div>
+        <label for="message">Message:</label>
+        <input class="r-div" type="textarea" placeholder="Enter your message">
+     </div> 
+     
+        <button>SUBMIT</button>
+
+    <h3>Table containing my Hobbies and reasons for liking them</h3>
+     <table border="2" cellpadding="7px" cellspacing="0px">
+        <thead>
+            <tr>
+                <th>Hobby</th>
+                <th>Reason</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Singing</td>
+                <td>I love singing because I have a nice singing voice</td>
+            </tr>
+            <tr>
+                <td>Swimming</td>
+                <td>It helps me relax</td>
+            </tr>
+            <tr>
+                <td>Reading</td>
+                <td>It helps sharpen my mental abilities</td>
+            </tr>
+            <tr>
+                <td>Investing</td>
+                <td>Helps with money-making.</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="10">End of table.</td>
+            </tr>
+        </tfoot>
+
+
+
+
+
+     </table>
+
+
+
+
+
+    </form>
+
+
+
+
+
+</body>
+</html>
